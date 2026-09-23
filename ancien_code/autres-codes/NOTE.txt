@@ -1,0 +1,7 @@
+htmlspecialchars($charactere);
+# 1 # Peinture ETOILE COLOR a l'eau MAUVE 4 Kg|qt:2|PU:13000|MT:26000 #
+# 1 # Peinture ETOILE COLOR a l'eau MAUVE 4 Kg|qt:2|PU:13000|MT:26000 #
+# 1 # Peinture ETOILE COLOR a l'eau MAUVE 4 Kg|qt:2|PU:13000|MT:26000 #
+# 1 # Peinture ETOILE COLOR a l'eau MAUVE 4 Kg|qt:2|PU:13000|MT:26000 #
+
+SELECT id_commande,nom_du_client,nom_x,commande.id_x as id_x,description_date,reference_x,note_commande,qt,commande.prix_de_vente as prix_de_vente, (commande.prix_de_vente)*qt as sous_total FROM commande INNER JOIN produit ON commande.id_x = produit.id_x;

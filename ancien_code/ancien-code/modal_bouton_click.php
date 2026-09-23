@@ -1,0 +1,1 @@
+<button data-id="<?php echo $note['id']; ?>"  onclick="$('#dataid').text($(this).data('id')); $('#showmodal').modal('show');">Click me </button>

@@ -1,0 +1,9 @@
+CD C:\wamp64\bin\mysql\mysql5.7.21\bin
+mysql.exe -u trelahy -p -h 192.168.0.107
+
+Localhost
+
+CD C:\wamp64\bin\mysql\mysql5.7.21\bin
+mysql.exe -u root -p
+
+USE GS

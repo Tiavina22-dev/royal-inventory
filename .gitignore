@@ -29,8 +29,7 @@ vendor/
 .vscode/
 .idea/
 # Anciennes sources utilisées uniquement comme référence
-ancien_code/
-autres-codes-main/
+
 
 # Captures locales
 captures/
