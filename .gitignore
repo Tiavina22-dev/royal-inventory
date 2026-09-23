@@ -1,0 +1,36 @@
+# Fichiers temporaires du projet
+.tmp_sessions/
+.agents/
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers temporaires éditeurs
+*.tmp
+*.log
+*.swp
+*~
+
+# Environnements / dépendances locales
+node_modules/
+vendor/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+
+# Sauvegardes
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+# Anciennes sources utilisées uniquement comme référence
+ancien_code/
+autres-codes-main/
+
+# Captures locales
+captures/
